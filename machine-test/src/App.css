@@ -1,0 +1,68 @@
+/* src/App.css */
+body {
+  font-family: Arial, sans-serif;
+}
+
+h2 {
+  color: #333;
+}
+
+input {
+  display: block;
+  padding: 8px;
+  margin: 10px 0;
+  width: 100%;
+  max-width: 300px;
+}
+
+button {
+  padding: 10px 20px;
+  color: #fff;
+  background-color: #4CAF50;
+  border: none;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #45a049;
+}
+
+/* src/App.css or relevant stylesheet */
+.card {
+  background-color: #f9f9f9;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  padding: 3%;
+}
+
+
+/* src/components/Navbar.css */
+
+.navbar-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #f1d0d0; /* Default Ant Design dark background */
+  padding: 0 20px;
+}
+
+
+.navbar-menu {
+  flex-grow: 1;
+  display: flex;
+  justify-content: flex-start;
+  background-color: #f1d0d0;
+}
+
+.navbar-menu .ant-menu-item a {
+  color: #211f1f;
+  font-size: 16px;
+}
+
+.navbar-menu .ant-menu-item:hover {
+  background-color: #1890ff; /* Add a hover effect */
+}
+
+.navbar-menu .ant-menu-item-selected {
+  background-color: #0050b3; /* Style for active tab */
+}
